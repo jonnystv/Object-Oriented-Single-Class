@@ -24,7 +24,7 @@ public class WaterBottleTest {
     }
 
     @Test
-    public void emptyBottle{
+    public void emptyBottle(){
         drinkBottle.drinkAllWater();
         assertEquals(0, drinkBottle.getVolume());
     }
