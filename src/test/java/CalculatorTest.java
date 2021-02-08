@@ -8,6 +8,7 @@ public class CalculatorTest {
 
     @Test
     public void canAdd() {
-        assertEquals(4, calculator.add(2, 2));
+        Calculator calc = new Calculator();
+        assertEquals(4, calc.add(2, 2));
     }
 }
