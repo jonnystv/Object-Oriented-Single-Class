@@ -7,9 +7,6 @@ public class CalculatorTest {
 
     Calculator calculator;
 
-//    @Before
-//    public void before() { Calculator calc = new Calculator();}
-
     @Test
     public void canAdd() {
         Calculator calc = new Calculator();
